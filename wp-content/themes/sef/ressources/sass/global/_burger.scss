@@ -1,0 +1,149 @@
+@media (max-width: 799px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0 3rem 2rem;
+
+    h3 {
+      font-family: $poppins-semibold;
+      font-size: 2rem;
+      z-index: 4;
+    }
+
+    &__links {
+      transform: translateY(100vh);
+      opacity: 0;
+      transition: 0.3s ease;
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 1;
+
+      &__more {
+        text-align: center;
+
+        &__primary {
+          border-radius: 0.5rem;
+          padding: 1rem 0;
+          display: inline-block;
+          background-color: $purple;
+          width: 100%;
+          color: white;
+          transition: 0.3s ease;
+
+          &:hover {
+            background-color: $light-purple;
+            color: $purple;
+          }
+        }
+      }
+
+      &__global {
+        li {
+          a {
+            color: black;
+            padding-bottom: 1rem;
+
+            &:hover {
+              color: $purple;
+            }
+          }
+        }
+      }
+
+      ul {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        li {
+          a {
+            text-decoration: none;
+            font-size: 2.5rem;
+            font-family: $poppins_semibold;
+            text-transform: capitalize;
+
+          }
+        }
+      }
+    }
+  }
+
+
+  #menu-btn {
+    position: absolute;
+    top: -100%;
+    left: -100%;
+  }
+
+  .menu-icon {
+    padding: 3vh;
+    z-index: 3;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    position: relative;
+    user-select: none;
+    visibility: visible;
+    transition: 0.3s ease;
+  }
+
+  .navicon {
+    background: #000000;
+    display: block;
+    height: 0.15625rem;
+    width: 1.5rem;
+    position: relative;
+  }
+
+  .navicon:before {
+    top: 0.4375rem;
+  }
+
+  .navicon:after {
+    bottom: 0.4375rem;
+  }
+
+  .navicon:before,
+  .navicon:after {
+    background: #000000;
+    display: block;
+    width: 100%;
+    height: 90%;
+    content: "";
+    position: absolute;
+    transition: all 0.2s ease-out;
+  }
+
+  .input:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  .input:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+
+  .input:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+    background: $purple;
+  }
+
+  .input:checked ~ .menu-icon .navicon:before,
+  .input:checked ~ .menu-icon .navicon:after {
+    top: 0;
+    background: $purple;
+  }
+
+  .input:checked ~ .navigation__links {
+    transform: translateY(0);
+    opacity: 100;
+  }
+}

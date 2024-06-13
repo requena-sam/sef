@@ -1,0 +1,235 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+
+.main {
+  padding: 0 2rem;
+  display: grid;
+  gap: 2rem;
+
+
+  &__content {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    h2 {
+      font-family: $poppins-semibold;
+      font-size: 2.5rem;
+      line-height: 1.4;
+
+      strong {
+        font-family: $shantell;
+        font-weight: 500;
+        color: $purple;
+      }
+    }
+
+    p {
+      font-family: $poppins-light;
+      line-height: 1.4;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    position: relative;
+    height: 300px;
+
+    img {
+      border-radius: 1rem;
+      height: 100%;
+    }
+
+    &:after {
+      content: '';
+      z-index: -1;
+      right: -0.7rem;
+      bottom: -0.7rem;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: $yellow;
+      border-radius: 1rem;
+
+    }
+  }
+}
+
+.cta_group {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+
+  a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: $poppins-medium;
+
+  }
+
+  .primary {
+    color: white;
+    background-color: $purple;
+    border-radius: 5px;
+    transition: 0.2s linear;
+    padding: 0.8rem 1rem;
+
+
+    &:hover {
+      background-color: $light-purple;
+      color: $purple;
+    }
+  }
+}
+
+section {
+  h2 {
+    font-family: $poppins-semibold;
+    font-size: 2.2rem;
+
+    strong, em {
+      color: $purple;
+      position: relative;
+      font-family: $shantell;
+      font-weight: 500;
+
+      &:after {
+        content: '';
+        width: 100%;
+        height: 20px;
+        background-image: url("../images/baseline.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+      }
+    }
+
+    em {
+      color: $yellow;
+
+      &:after {
+        background-image: url("../images/baseline-yellow.svg");
+      }
+    }
+  }
+}
+
+.hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media (min-width: 799px) {
+  .computer_hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mobile_hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
+
+@media (min-width: 800px) {
+  .main {
+    height: 80vh;
+    padding: 0 6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 6rem;
+    align-items: center;
+
+    &__img {
+      height: 400px;
+
+    }
+
+    &__content {
+      order: initial;
+      justify-content: center;
+
+      h2 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+
+.secondary, .btn-arrow {
+  display: inline-block;
+  position: relative;
+  color: black;
+  padding: 0.8rem 1.5rem 0.8rem 0;
+  text-decoration: none;
+  font-family: $poppins-medium;
+
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 80%;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform .4s cubic-bezier(.86, 0, .07, 1);
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  &:before {
+    content: "";
+    background-image: url("../images/fleche.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+}
+
+
+
