@@ -1,0 +1,47 @@
+.different{
+  div{
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      li{
+        transition: 0.3s ease;
+        a{
+          text-decoration: none;
+        }
+        &:hover{
+          transform: scale(1.02);
+        }
+        article{
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          padding: 1.5rem 2.5rem;
+          background-color: $purple;
+          color: white;
+          border-radius: 1rem;
+          h3{
+            font-family: $poppins-semibold;
+            font-size: 1.2rem;
+          }
+          p{
+            font-family: $poppins-light;
+            line-height: 1.4;
+          }
+        }
+      }
+      li:first-child{
+        article{
+          color: $purple;
+          background-color: $light-purple;
+        }
+      }
+      li:last-child{
+        article{
+          color: black;
+          background-color: $yellow;
+        }
+      }
+    }
+  }
+}
