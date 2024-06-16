@@ -1,0 +1,121 @@
+.stats {
+  margin: 3rem 0;
+  padding: 0 2rem;
+
+  &__list {
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 3rem;
+
+    &__item {
+      background-color: $purple;
+      color: white;
+      border-radius: 1rem;
+
+      &__card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem 1.5rem;
+        justify-content: center;
+
+        &__upper {
+          span {
+            font-family: $poppins-semibold;
+            font-size: 10rem;
+          }
+
+          h3 {
+            font-family: $poppins-semibold;
+            font-size: 1.5rem;
+          }
+        }
+
+        hr {
+          margin: 1rem 0;
+          border-color: white;
+        }
+
+        p {
+          font-family: $poppins-light;
+        }
+
+        a {
+          &:after {
+            background-color: white;
+          }
+        }
+
+        .btn-arrow {
+          color: white;
+
+          &:before {
+            background-image: url("../images/fleche_white.png");
+          }
+        }
+      }
+    }
+
+    li:first-child {
+      background-color: $light-purple;
+      color: $purple;
+
+      hr {
+        border-color: $purple;
+      }
+
+      a {
+        color: $purple;
+
+        &:after {
+          background-color: $purple;
+        }
+      }
+
+      .btn-arrow {
+        &:before {
+          background-image: url("../images/fleche_purple.png");
+        }
+      }
+    }
+
+    li:last-child {
+      background-color: $yellow;
+      color: black;
+
+      hr {
+        border-color: black;
+
+      }
+
+      a {
+        color: black;
+
+        &:after {
+          background-color: black;
+        }
+      }
+
+      .btn-arrow {
+        &:before {
+          background-image: url("../images/fleche.png");
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .stats {
+    padding: 0 6rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .stats {
+    &__list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
