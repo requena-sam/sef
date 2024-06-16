@@ -1,0 +1,31 @@
+.confidential{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem 2rem;
+  .update-date{
+    text-align: center;
+    font-family: $poppins-medium;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  &__paragraphe{
+    margin: 0 auto;
+    align-items: center;
+    text-align: left;
+    max-width: 45rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    line-height: 1.4;
+    h3{
+      font-family: $poppins-semibold;
+      font-size: 1.7rem;
+    }
+    p{
+      font-family: $poppins-light
+    }
+  }
+}
