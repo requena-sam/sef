@@ -1,0 +1,42 @@
+//Global
+@import "global/variables";
+@import "global/reset";
+@import "global/global";
+@import "global/column";
+@import "global/soutien";
+@import "global/nav";
+@import "global/burger";
+@import "global/footer";
+@import "global/404";
+
+//home page
+@import "home/benevole";
+@import "home/faq";
+@import "home/stats";
+@import "home/recents";
+
+//accommodation pages
+@import "acommodation/houses";
+
+//actualités pages
+@import "actualites/article";
+@import "actualites/event";
+@import "actualites/single";
+
+//le projet pages
+@import "projet/services";
+@import "projet/team";
+
+//Donation page
+@import "donation/different";
+
+//Magasins page
+@import "magasins/magasin";
+
+//Contact page
+@import "contact/contact";
+@import "contact/form";
+
+//Politique de confidentialité
+
+@import "politique/confidential";
