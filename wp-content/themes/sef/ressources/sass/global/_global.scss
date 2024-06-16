@@ -19,7 +19,35 @@ img {
   padding: 0 2rem;
   display: grid;
   gap: 2rem;
+  margin-top: 7rem;
 
+    &__alert {
+      padding: 0.6rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      background-color: $yellow;
+      font-family: $poppins-medium;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      left: 0;
+      position: absolute;
+      top: 6rem;
+      a{
+        text-decoration: none;
+        padding: 0.6rem 0.8rem;
+        background-color: white;
+        color: $purple;
+        border-radius: 0.5rem;
+        transition: 0.3s ease;
+        &:hover {
+          background-color: $light-purple;
+          color: $purple;
+        }
+      }
+    }
 
   &__content {
     order: 2;
@@ -168,11 +196,15 @@ section {
 
 @media (min-width: 800px) {
   .main {
+    margin-top: 0;
     height: 80vh;
     padding: 0 6rem;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 6rem;
     align-items: center;
+    &__alert{
+      flex-direction: row;
+    }
 
     &__img {
       height: 400px;

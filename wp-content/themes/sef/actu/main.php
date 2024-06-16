@@ -1,4 +1,6 @@
 <section class="main">
+    <?php get_template_part('components/alert'); ?>
+
     <div class="main__content">
         <h2 role="heading" aria-level="2" class="main_title"><?= get_field('actu-main-title', false, false); ?></h2>
         <p><?= get_field('actu-main-text'); ?></p>

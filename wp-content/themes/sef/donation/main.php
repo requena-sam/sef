@@ -1,4 +1,5 @@
 <section class="main">
+    <?php get_template_part('components/alert'); ?>
     <div class="main__content">
         <h2 role="heading" aria-level="2" class="main_title"><?= get_field('donation-main-title', false, false); ?></h2>
         <p><?= get_field('donation-main-text'); ?></p>

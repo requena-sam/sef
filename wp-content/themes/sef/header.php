@@ -7,7 +7,7 @@
 
     <!-- Meta donnée du site -->
     <meta name="author" content="Sam Requena">
-    <meta name="title" content="<?= get_bloginfo('title');?>">
+    <meta name="title" content="<?= get_bloginfo('title'); ?>">
     <meta name="keywords"
           content="SEF, Service d'entraide familiale, ASBL, Huy ,Hébergement d'urgence, Sans-abri, Aide aux personnes sans domicile fixe, Logement temporaire, Réinsertion sociale, Solidarité, Services sociaux, Soutien aux sans-abri, Accompagnement des personnes en situation de précarité, Centre d'accueil, Solutions de logement alternatives, Prévention de l'exclusion sociale, Hébergement d'urgence pour les SDF, Assistance aux personnes en situation de sans-abrisme, Intégration sociale, Logement transitoire, Accès au logement, Services d'hébergement pour les plus démunis, Insertion professionnelle, Réduction de la pauvreté">
     <meta name="description"

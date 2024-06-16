@@ -184,4 +184,7 @@ function my_acf_the_content_filter($value) {
 
     return $value;
 }
-
+function dw_is_active(string $path): string
+{
+    return wp_get_canonical_url() === $path ? 'active' : '';
+}

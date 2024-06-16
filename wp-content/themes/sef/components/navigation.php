@@ -1,6 +1,6 @@
 <nav role="navigation" class="navigation">
     <h2 role="heading" aria-level="2" class="hidden">Navigation principale</h2>
-    <h3 role="heading" aria-level="3">SEF</h3>
+    <h3 role="heading" aria-level="3"><a href="<?= home_url(); ?>" title="Vers la page d'accueil">SEF</a></h3>
     <input type="checkbox" class="input menu-btn computer_hidden" id="menu-btn">
     <label class="menu-icon computer_hidden" for="menu-btn">
         <span class="navicon" aria-label="Hamburger menu 'icon'"></span>
@@ -13,7 +13,7 @@
                     $text = get_sub_field('navigation-text', 'options');
                     $link = get_sub_field('navigation-link', 'options');
                     ?>
-                    <li><a href="<?= $link; ?>"><?= $text; ?></a></li>
+                    <li><a class="<?=dw_is_active($link);?>" href="<?= $link; ?>" title="Vers la page <?=$text;?>"><?= $text; ?></a></li>
                 <?php endwhile;endif; ?>
         </ul>
         <ul class="navigation__links__more">

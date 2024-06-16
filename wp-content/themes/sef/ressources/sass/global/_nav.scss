@@ -7,6 +7,10 @@
     grid-gap: 2rem;
 
     h3 {
+      a{
+        text-decoration: none;
+        color: black;
+      }
       align-self: center;
       font-family: $poppins-semibold;
       font-size: 2rem;
@@ -27,6 +31,9 @@
           a {
             font-family: $poppins-regular;
             text-decoration: none;
+          }
+          .active{
+            color: $purple;
           }
         }
       }

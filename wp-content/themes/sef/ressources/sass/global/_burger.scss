@@ -9,6 +9,10 @@
       font-family: $poppins-semibold;
       font-size: 2rem;
       z-index: 4;
+      a{
+        text-decoration: none;
+        color: black ;
+      }
     }
 
     &__links {
@@ -54,6 +58,10 @@
             &:hover {
               color: $purple;
             }
+          }
+
+          .active {
+            color: $purple;
           }
         }
       }

@@ -60,5 +60,6 @@
         </div>
     </section>
 </footer>
+<script type="module" src="<?= dw_asset('js/site.js') ?>" defer></script>
 </body>
 </html>

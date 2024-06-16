@@ -10,28 +10,26 @@
     &__bank {
       display: flex;
       flex-direction: column;
-      padding: 1rem;
-      background-color: white;
-      color: $purple;
+      color: white;
       border-radius: 0.5rem;
       position: relative;
       h3 {
-        font-size: 1.5rem;
-        font-family: $poppins-semibold;
+        font-size: 1.2rem;
+        font-family: $poppins-medium;
         margin-bottom: 1rem;
       }
 
       p {
         font-family: $poppins-regular;
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 1.2rem;
       }
       a{
         text-decoration: none;
         font-family: $poppins-regular;
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 1.2rem;
-        color: $purple;
+        color: white;
       }
     }
 
@@ -108,16 +106,16 @@
 
 @media (min-width: 800px) {
   .footer {
+    .footer_logo{
+      align-self: center;
+      justify-self: center;
+      font-family: $poppins-semibold;
+      font-size: 3rem;
+    }
     &__upper {
       flex-direction: row;
       justify-content: space-between;
       padding: 3rem 6rem;
-
-      &__bank {
-        align-self: center;
-        justify-content: center;
-      }
-
       &__lists {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5rem;
