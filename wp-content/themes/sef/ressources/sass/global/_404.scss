@@ -1,0 +1,27 @@
+.error-page{
+  padding: 0 2rem;
+  line-height: 1.4;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  h2{
+    font-size: 6rem;
+    text-align: center;
+  }
+  p{
+    font-family: $poppins-light;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+@media (min-width: 800px) {
+  .error-page{
+    padding: 0 6rem;
+    h2{
+      font-size: 10rem;
+    }
+  }
+}
