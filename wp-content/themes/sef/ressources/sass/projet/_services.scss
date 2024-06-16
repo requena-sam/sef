@@ -1,0 +1,63 @@
+.services{
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+  h2{
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  &__container{
+    display: grid;
+    gap: 1.5rem;
+    article{
+      border-radius: 1rem;
+      display: flex;
+      gap: 0.8rem;
+      flex-direction: column;
+      padding: 1.5rem 2rem;
+      font-family: $poppins-light;
+      line-height: 1.4;
+      h3{
+        font-family: $poppins-semibold;
+        font-size: 1.5rem;
+      }
+    }
+    &__article_purple{
+        background-color: $purple;
+        color: white;
+      a{
+        color: white;
+        &:after{
+          background-color: white;
+        }
+        &:before{
+          background-image: url("../images/fleche_white.png");
+        }
+      }
+    }
+    &__article_orange{
+      background-color: $yellow;
+    }
+    &__article_light-purple{
+      background-color: $light-purple;
+      color: $purple;
+      a{
+        color: $purple;
+        &:after{
+          background-color: $purple;
+        }
+        &:before{
+          background-image: url("../images/fleche_purple.png");
+        }
+      }
+    }
+  }
+}
+@media (min-width: 800px) {
+  .services{
+    padding: 0 6rem;
+    margin-bottom: 6rem;
+    &__container{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
