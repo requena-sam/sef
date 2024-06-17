@@ -1,4 +1,4 @@
-# README - Service d'Entraide Familiale (SEF) 🌐
+# Service d'Entraide Familiale (SEF) 🌐
 
 ## Introduction 📚
 Bienvenue sur le site web du **Service d'Entraide Familiale (SEF)**. Ce projet a été réalisé dans le cadre de mon parcours scolaire en deuxième année à la HEPL. L'objectif de ce site est de présenter les actions de l'ASBL SEF, qui œuvre pour venir en aide aux personnes sans-abri en leur offrant des solutions d'hébergement et en favorisant leur réinsertion sociale.
