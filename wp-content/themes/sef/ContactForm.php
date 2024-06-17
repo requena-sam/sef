@@ -7,6 +7,8 @@ class ContactForm
         'nom' => 'Nom',
         'prenom' => 'Prénom',
         'phone' => 'Téléphone',
+        'sujet' => 'Sujet',
+
     ];
 
     private const ERROR_REQUIRED_FIELD = 'Le champ %s est requis.';
@@ -111,7 +113,9 @@ class ContactForm
             case 'phone':
             case 'nom':
             case 'prenom':
-                return sanitize_text_field($value);
+            case 'sujet':
+
+            return sanitize_text_field($value);
             default:
                 return sanitize_text_field($value);
         }
