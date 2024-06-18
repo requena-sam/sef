@@ -7,7 +7,7 @@
             <?= get_field('contact-content'); ?>
         </p>
     </div>
-    <ul>
+    <ul  data-animation="showUp">
         <li class="contact-phone"><a href="tel:<?= get_field('contact-phone'); ?>"><?= get_field('contact-phone'); ?></a></li>
         <li class="contact-email"><a href="mailto:<?= get_field('contact-email'); ?>"><?= get_field('contact-email'); ?></a></li>
         <li class="contact-address"><?= get_field('contact-address'); ?></li>
