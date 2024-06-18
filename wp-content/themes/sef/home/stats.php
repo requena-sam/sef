@@ -1,4 +1,4 @@
-<section class="stats">
+<section class="stats" data-animation="showUp">
     <h2 aria-level="2" role="heading"><?= get_field('home-stats-title', false, false); ?></h2>
     <ul class="stats__list">
         <?php if (have_rows('home-stats-list')) :

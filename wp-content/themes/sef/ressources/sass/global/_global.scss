@@ -265,6 +265,27 @@ section {
     right: 0;
   }
 }
+@keyframes showUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.showUp {
+  opacity: 1;
+  transition: 0.5s;
+  animation: showUp 1s;
+
+}
+
+.opacity-none {
+  opacity: 0;
+}
 
 
 

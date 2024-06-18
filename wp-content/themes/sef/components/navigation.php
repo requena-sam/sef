@@ -1,4 +1,4 @@
-<nav role="navigation" class="navigation">
+<nav role="navigation" class="navigation" data-animation="showUp">
     <h2 role="heading" aria-level="2" class="hidden">Navigation principale</h2>
     <h3 role="heading" aria-level="3"><a href="<?= home_url(); ?>" title="Vers la page d'accueil">SEF</a></h3>
     <input type="checkbox" class="input menu-btn computer_hidden" id="menu-btn">

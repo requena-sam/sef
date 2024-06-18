@@ -1,4 +1,4 @@
-<section class="main">
+<section class="main" data-animation="showUp">
     <?php get_template_part('components/alert'); ?>
     <div class="main__content">
         <h2 role="heading" aria-level="2" class="main_title"><?= get_field('home-main-title', false, false); ?></h2>

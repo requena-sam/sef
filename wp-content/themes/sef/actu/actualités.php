@@ -1,4 +1,4 @@
-<section class="articles">
+<section class="articles" data-animation="showUp">
     <h2 role="heading" aria-level="2"><?= get_field('articles-title', false, false); ?></h2>
     <div class="articles__container">
         <?php

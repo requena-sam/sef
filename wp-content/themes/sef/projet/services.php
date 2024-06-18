@@ -1,4 +1,4 @@
-<section class="services">
+<section class="services" data-animation="showUp">
     <h2 role="heading" aria-level="2"><?= get_field('services-title', false, false); ?></h2>
     <div class="services__container">
         <?php if (have_rows('services-list')) :

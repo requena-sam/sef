@@ -1,4 +1,4 @@
-<section class="houses">
+<section class="houses" data-animation="showUp">
     <h2 role="heading" aria-level="2" class="hidden">Listes de nos maisons</h2>
     <ul role="list" class="houses__list">
         <?php if (have_rows('houses-list')):
@@ -11,7 +11,7 @@
                 $warning = get_sub_field('warning');
                 $img = get_sub_field('img');
                 ?>
-                <li class="houses__list__item column">
+                <li class="houses__list__item column" data-animation="showUp">
                     <div class="houses__list__item__img column__img">
                         <img src="<?= $img; ?>" alt="Photo de la maison">
                     </div>

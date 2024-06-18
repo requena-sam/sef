@@ -3,7 +3,7 @@ $errors = $_SESSION['form_errors'] ?? [];
 unset($_SESSION['form_errors']);
 ?>
 
-<form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post" class="contact__formulaire">
+<form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post" class="contact__formulaire" data-animation="showUp">
     <input type="hidden" name="action" value="contact_form">
     <fieldset>
         <legend class="hidden">Formulaire de contact</legend>

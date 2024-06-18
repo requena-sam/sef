@@ -1,4 +1,4 @@
-<section class="team">
+<section class="team" data-animation="showUp">
     <h2 role="heading" aria-level="2"><?= get_field('team-title', false, false); ?></h2>
     <div class="team__container">
         <div class="team__container__slider">

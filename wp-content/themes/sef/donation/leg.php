@@ -1,4 +1,4 @@
-<section id="leg" class="leg column">
+<section id="leg" class="leg column" data-animation="showUp">
     <div class="column__content">
         <h2 role="heading" aria-level="2"><?= get_field('leg-title', false, false); ?></h2>
         <?php if (have_rows('leg-infos-list')):

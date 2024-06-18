@@ -1,4 +1,4 @@
-<section class="magasins">
+<section class="magasins" data-animation="showUp">
     <h2 role="heading" aria-level="2" class="hidden">Liste des magasins</h2>
     <ul class="magasins__container">
         <?php if (have_rows('magasins-list')):
@@ -33,7 +33,7 @@
                 </li>
             <?php endwhile; endif; ?>
     </ul>
-    <div class="magasins__map">
+    <div class="magasins__map" data-animation="showUp">
         <img src="<?= get_field('map'); ?>" alt="Capture d'écran de la position du centre de google map">
     </div>
 </section>

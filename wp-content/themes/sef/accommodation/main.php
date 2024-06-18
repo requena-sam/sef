@@ -1,4 +1,4 @@
-<section class="main">
+<section class="main" data-animation="showUp">
     <?php get_template_part('components/alert'); ?>
 
     <div class="main__content">

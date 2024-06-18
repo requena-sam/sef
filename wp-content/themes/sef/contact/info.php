@@ -1,5 +1,5 @@
 <section class="contact__info">
-    <div class="contact__info__header">
+    <div class="contact__info__header" data-animation="showUp">
         <h2>
             <?= get_field('contact-title', false, false); ?>
         </h2>

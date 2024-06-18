@@ -1,4 +1,4 @@
-<section class="column">
+<section class="column" data-animation="showUp">
     <div class="column__content">
         <h2 role="heading" aria-level="2"><?= get_field('fiscal-title', false, false); ?></h2>
         <p><?= get_field('fiscal-text'); ?></p>

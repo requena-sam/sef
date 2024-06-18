@@ -1,4 +1,4 @@
-<section class="benevole column">
+<section class="benevole column" data-animation="showUp">
     <div class="column__content benevole__content">
         <h2 role="heading" aria-level="2"><?= get_field('benevole-title', 'options', false); ?></h2>
         <p><?= get_field('benevole-text', 'options'); ?></p>

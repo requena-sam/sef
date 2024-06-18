@@ -1,4 +1,4 @@
-<section class="mission column">
+<section class="mission column" data-animation="showUp">
     <div class="column__content right">
         <h2 role="heading" aria-level="2"><?= get_field('mission-title', false, false); ?></h2>
         <p><?= get_field('mission-text'); ?></p>

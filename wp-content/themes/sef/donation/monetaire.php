@@ -1,4 +1,4 @@
-<section id="monetaire" class="monetaire column">
+<section id="monetaire" class="monetaire column" data-animation="showUp">
     <div class="column__content right">
         <h2 role="heading" aria-level="2"><?= get_field('monetaire-title', false, false); ?></h2>
         <p><?= get_field('monetaire-text'); ?></p>

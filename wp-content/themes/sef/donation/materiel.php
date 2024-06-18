@@ -1,4 +1,4 @@
-<section id="materiel" class="materiel column">
+<section id="materiel" class="materiel column" data-animation="showUp">
     <div class="column__content right">
         <h2 role="heading" aria-level="2"><?= get_field('materiel-title', false, false); ?></h2>
         <p><?= get_field('materiel-text'); ?></p>

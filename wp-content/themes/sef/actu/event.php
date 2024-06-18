@@ -1,4 +1,4 @@
-<section class="event">
+<section class="event" data-animation="showUp">
     <h2 role="heading" aria-level="2">Évènements à <em>venir</em></h2>
     <div class="event__container">
         <?php

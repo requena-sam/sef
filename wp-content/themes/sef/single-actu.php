@@ -2,7 +2,7 @@
 <?php if (have_posts()): while (have_posts()):
     the_post(); ?>
     <main>
-        <section class="single">
+        <section class="single" data-animation="showUp">
             <div class="single__img">
                 <img src="<?= get_field('article-img'); ?>" alt="">
             </div>
@@ -21,7 +21,7 @@
                     <?php endwhile;endif; ?>
             </div>
         </section>
-        <section class="single-event">
+        <section class="single-event" data-animation="showUp">
             <h2>Un oeil sur le reste de l'actualité</h2>
             <div class="single-event__container">
                 <?php

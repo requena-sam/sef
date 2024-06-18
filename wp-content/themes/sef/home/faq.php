@@ -1,4 +1,4 @@
-<section class="faq column">
+<section class="faq column" data-animation="showUp">
     <div class="faq__content column__content">
         <h2><?= get_field('home-faq-title', false, false); ?></h2>
         <?php if (have_rows('home-faq-list')):
@@ -37,7 +37,7 @@
                         $question = get_sub_field('faq-question');
                         $answer = get_sub_field('faq-answer');
                         ?>
-                        <article>
+                        <article data-animation="showUp">
                             <h4 role="heading" aria-level="4" class="hidden"><?= $question;?></h4>
                             <input class="hidden" type="checkbox" id="arrow-faq-<?= $question; ?>">
                             <label class="first-label" for="arrow-faq-<?= $question; ?>">
