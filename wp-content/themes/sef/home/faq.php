@@ -8,8 +8,7 @@
         <div class="cta_group">
             <a class="primary"
                href="<?= get_field('home-faq-first-link-url'); ?>"><?= get_field('home-faq-first-link-text'); ?></a>
-            <a class="secondary"
-               href="<?= get_field('home-faq-second-link-url'); ?>"><?= get_field('home-faq-second-link-text'); ?></a>
+            <a class="secondary"><?= get_field('home-faq-second-link-text'); ?><span class="icon-arrow-right2"></span></a>
         </div>
     </div>
     <div class="faq__question">

@@ -5,7 +5,7 @@
   margin: 3rem 0;
 
   &__container {
-    background: $yellow;
+    background: $secondary;
     border-radius: 1rem;
     padding: 2rem;
     display: grid;
@@ -17,12 +17,12 @@
     &__text {
       h2 {
         font-size: 1.5rem;
-        color: black;
+        color: $labeur;
       }
-
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      color: $labeur;
     }
 
     &__btn {
@@ -33,11 +33,11 @@
       .primary {
         font-size: 1rem;
         padding: 1.2rem 1rem;
-        background: white;
-        color: black;
+        background: $third;
+        color: $secondary;
         &:hover {
-          background: black;
-          color: $yellow;
+          background: white;
+          color: $third;
         }
       }
     }

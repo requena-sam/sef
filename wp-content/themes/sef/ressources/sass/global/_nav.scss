@@ -9,7 +9,7 @@
     h3 {
       a{
         text-decoration: none;
-        color: black;
+        color: $labeur;
       }
       align-self: center;
       font-family: $poppins-semibold;
@@ -33,7 +33,7 @@
             text-decoration: none;
           }
           .active{
-            color: $purple;
+            color: $primary;
           }
         }
       }
@@ -47,7 +47,7 @@
             padding: 0.9rem 0;
             display: inline-block;
             position: relative;
-            color: black;
+            color: $labeur;
 
             &:after {
               content: '';
@@ -57,7 +57,7 @@
               height: 2px;
               top: 80%;
               left: 0;
-              background-color: black;
+              background-color: $labeur;
               transform-origin: bottom right;
               transition: transform .4s cubic-bezier(.86, 0, .07, 1);
             }
@@ -75,14 +75,14 @@
 
         &__primary {
           padding: 0.5rem 1.2rem;
-          background-color: $purple;
-          color: white;
+          background-color: $primary;
+          color: $labeur;
           border-radius: 0.3rem;
           transition: 0.3s ease;
 
           &:hover {
-            background-color: $light-purple;
-            color: $purple;
+            background-color: $third;
+            color: $primary;
           }
         }
 

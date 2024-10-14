@@ -11,10 +11,11 @@
             font-family: $poppins-semibold;
             font-size: 2.2rem;
             margin-bottom: 0.5rem;
+            color: $labeur;
           }
 
           .address {
-            color: $purple;
+            color: $primary;
             font-family: $poppins-semibold;
             font-size: 1.5rem;
           }
@@ -22,7 +23,7 @@
 
         p b {
           font-family: $poppins-medium;
-          color: $purple;
+          color: $primary;
         }
       }
     }

@@ -1,7 +1,7 @@
 <section class="recents" data-animation="showUp">
     <div class="recents__header">
         <h2 role="heading" aria-level="2">Notre actualité <strong>récente</strong></h2>
-        <a href="<?= get_field('options-actu-link', 'options'); ?>" class="btn-arrow">Voir toute l'actualité</a>
+        <a href="<?= get_field('options-actu-link', 'options'); ?>" class="btn-arrow">Voir toute l'actualité<span class="icon-arrow-right2"></span></a>
     </div>
     <div class="recents__container">
         <?php

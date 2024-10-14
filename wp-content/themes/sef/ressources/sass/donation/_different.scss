@@ -17,8 +17,8 @@
           flex-direction: column;
           gap: 0.5rem;
           padding: 1.5rem 2.5rem;
-          background-color: $purple;
-          color: white;
+          background-color: $primary;
+          color: $labeur;
           border-radius: 1rem;
           h3{
             font-family: $poppins-semibold;
@@ -32,14 +32,14 @@
       }
       li:first-child{
         article{
-          color: $purple;
-          background-color: $light-purple;
+          color: $labeur;
+          background-color: $secondary;
         }
       }
       li:last-child{
         article{
-          color: black;
-          background-color: $yellow;
+          color: $labeur;
+          background-color: $secondary;
         }
       }
     }

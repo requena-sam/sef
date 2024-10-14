@@ -16,7 +16,7 @@
         </ul>
         <div class="cta_group">
             <a class="primary" href="<?= get_field('benevole-first-link-url', 'options'); ?>"><?= get_field('benevole-first-link-text', 'options'); ?></a>
-            <a class="secondary" href="<?= get_field('benevole-second-link-url', 'options'); ?>"><?= get_field('benevole-second-link-text', 'options'); ?></a>
+            <a class="secondary" href="<?= get_field('benevole-second-link-url', 'options'); ?>"><?= get_field('benevole-second-link-text', 'options'); ?><span class="icon-arrow-right2"></span></a>
         </div>
     </div>
     <div class="column__img benevole__img mobile_hidden">

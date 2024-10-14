@@ -14,7 +14,7 @@
                     <p><?= $text; ?></p>
                     <div class="">
                         <a class="btn-arrow" href="<?= $link_url; ?>"
-                           title="Vers la page <?= $link_text; ?>"><?= $link_text; ?></a>
+                           title="Vers la page <?= $link_text; ?>"><?= $link_text; ?><span class="icon-arrow-right2"></span></a>
                     </div>
                 </article>
             <?php endwhile; endif; ?>

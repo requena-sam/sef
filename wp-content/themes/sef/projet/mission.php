@@ -4,7 +4,7 @@
         <p><?= get_field('mission-text'); ?></p>
         <div class="cta_group">
             <a class="primary" href="<?= get_field('mission-first-link-url'); ?>"><?= get_field('mission-first-link-text'); ?></a>
-            <a class="secondary" href="<?= get_field('mission-second-link-url'); ?>"><?= get_field('mission-second-link-text'); ?></a>
+            <a class="secondary" href="<?= get_field('mission-second-link-url'); ?>"><?= get_field('mission-second-link-text'); ?><span class="icon-arrow-right2"></span></a>
         </div>
     </div>
     <div class="mission__img column__img">

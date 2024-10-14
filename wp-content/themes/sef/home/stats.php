@@ -17,6 +17,7 @@
                 <div>
                     <a class="btn-arrow" href="<?= get_sub_field('stat-link-url'); ?>"
                        title="Vers la page <?= $link_text; ?>"><?= $link_text; ?>
+                        <span class="icon-arrow-right2"></span>
                     </a>
                 </div>
             </div>
@@ -24,5 +25,4 @@
             endif; ?>
         </li>
     </ul>
-
 </section>

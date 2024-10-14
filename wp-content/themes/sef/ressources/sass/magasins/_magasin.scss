@@ -8,24 +8,25 @@
 
     li:first-child {
       article {
-        color: $purple;
-        background-color: $light-purple;
+        color: $labeur;
+        background-color: $secondary;
         .phone-number{
-          color: $purple;
+          color: $labeur;
           &:before{
             background-image: url("../images/phone-purple.svg");
+
           }
         }
       }
     }
     li:last-child {
       article {
-        color: black;
-        background-color: $yellow;
+        color: $labeur;
+        background-color: $secondary;
         .phone-number{
-          color: black;
+          color: $labeur;
           &:before{
-            background-image: url("../images/black.svg");
+            background-image: url("../images/phone-purple.svg");
           }
         }
       }
@@ -34,8 +35,8 @@
     &__item {
       justify-content: center;
       border-radius: 1.5rem;
-      color: white;
-      background-color: $purple;
+      color: $labeur;
+      background-color: $primary;
       padding: 2.5rem 2rem;
       display: flex;
       flex-direction: column;
@@ -71,13 +72,13 @@
     .phone-number {
       position: relative;
       font-family: $poppins-medium;
-      color: white;
+      color: $labeur;
       text-decoration: none;
       padding-left: 2.2rem;
       &:before{
         position: absolute;
         content: '';
-        background-image: url("../images/phone-white.svg");
+        background-image: url("../images/black.svg");
         background-size: contain;
         width: 2rem;
         height: 2rem;

@@ -30,7 +30,7 @@
 
       &__title_benevole {
         a {
-          color: $yellow;
+          color: $labeur;
           font-size: 0.8rem;
           text-decoration: none;
         }
@@ -46,7 +46,7 @@
 
       &__title_donate {
         a {
-          color: $yellow;
+          color: $labeur;
           font-size: 0.8rem;
           text-decoration: none;
         }
@@ -65,7 +65,7 @@
 
       &__title_asbl {
         a {
-          color: $yellow;
+          color: $labeur;
           font-size: 0.8rem;
           text-decoration: none;
         }
@@ -88,6 +88,7 @@
         padding-top: 1rem;
         font-size: 1.5rem;
         font-family: $poppins-semibold;
+        scroll-margin-top: 7.5rem;
       }
 
       article {
@@ -106,7 +107,7 @@
             position: absolute;
             right: -1rem;
             content: '';
-            background-image: url("../images/faq-purple.svg");
+            background-image: url("../images/faq-blue.svg");
             width: 1rem;
             height: 1rem;
             background-repeat: no-repeat;
@@ -128,8 +129,8 @@
         gap: 2rem;
 
         article {
-          background-color: $light-purple;
-          color: $purple;
+          background-color: $primary;
+          color: $third;
         }
       }
 
@@ -139,10 +140,10 @@
         gap: 2rem;
 
         article {
-          background-color: $purple;
-          color: white;
+          background-color: $secondary;
+          color: $labeur;
           label:after{
-            background-image: url("../images/faq-white.svg");
+            background-image: url("../images/faq-blue.svg");
           }
         }
       }
@@ -153,10 +154,10 @@
         gap: 2rem;
 
         article {
-          background-color: $yellow;
-          color: black;
+          background-color: $primary;
+          color: $labeur;
           label:after{
-            background-image: url("../images/faq-black.svg");
+            background-image: url("../images/faq-blue.svg");
           }
         }
       }

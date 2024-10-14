@@ -4,7 +4,7 @@
         <p><?= get_field('different-text'); ?></p>
         <div class="cta_group">
             <a class="primary" href="<?= get_field('different-first-link-url'); ?>"><?= get_field('different-first-link-text'); ?></a>
-            <a class="secondary" href="<?= get_field('different-second-link-url'); ?>"><?= get_field('different-second-link-text'); ?></a>
+            <a class="secondary" href="<?= get_field('different-second-link-url'); ?>"><?= get_field('different-second-link-text'); ?><span class="icon-arrow-right2"></span></a>
         </div>
     </div>
     <div>

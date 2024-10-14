@@ -7,10 +7,10 @@
             <a class="primary"
                href="<?= get_field('home-main-first-link-url'); ?>"><?= get_field('home-main-first-link-text'); ?></a>
             <a class="secondary"
-               href="<?= get_field('home-main-second-link-url'); ?>"><?= get_field('home-main-second-link-text'); ?></a>
+               href="<?= get_field('home-main-second-link-url'); ?>"><?= get_field('home-main-second-link-text'); ?><span class="icon-arrow-right2"></span></a>
         </div>
     </div>
     <div class="main__img"  data-animation="showUp">
-        <img src="<?= get_field('home-main-illu'); ?>" alt="Image d'introduction">
+        <?= wp_get_attachment_image(get_field('home-main-illu'), 'medium') ?>
     </div>
 </section>

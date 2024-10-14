@@ -3,13 +3,17 @@ $poppins-semibold : 'Poppins-SemiBold', Helvetica, serif;
 $poppins-regular : 'Poppins-Regular', Helvetica, sans-serif;
 $poppins-light : 'Poppins-Light', Helvetica, sans-serif;
 $poppins-medium : 'Poppins-Medium', Helvetica, sans-serif;
-$purple : #724CE2;
-$yellow : #EFC456;
-$light-purple : #E1D4F4;
+$primary: #ffc003;
+$secondary: #BAE8E8;
+$third: #272343;
+$labeur : #272343;
 
 
 
-
+@font-face {
+  font-family: 'Icon';
+  src: url("../fonts/icomoon.ttf");
+}
 @font-face {
   font-family: 'Shantell Sans';
   src: url("../fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf");

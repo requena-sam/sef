@@ -11,7 +11,7 @@
       z-index: 4;
       a{
         text-decoration: none;
-        color: black ;
+        color: $labeur ;
       }
     }
 
@@ -37,14 +37,14 @@
           border-radius: 0.5rem;
           padding: 1rem 0;
           display: inline-block;
-          background-color: $purple;
+          background-color: $primary;
           width: 100%;
           color: white;
           transition: 0.3s ease;
 
           &:hover {
-            background-color: $light-purple;
-            color: $purple;
+            background-color: $third;
+            color: $primary;
           }
         }
       }
@@ -52,16 +52,16 @@
       &__global {
         li {
           a {
-            color: black;
+            color: $labeur;
             padding-bottom: 1rem;
 
             &:hover {
-              color: $purple;
+              color: $primary;
             }
           }
 
           .active {
-            color: $purple;
+            color: $primary;
           }
         }
       }
@@ -106,7 +106,7 @@
   }
 
   .navicon {
-    background: #000000;
+    background: $labeur;
     display: block;
     height: 0.15625rem;
     width: 1.5rem;
@@ -123,7 +123,7 @@
 
   .navicon:before,
   .navicon:after {
-    background: #000000;
+    background: $labeur;
     display: block;
     width: 100%;
     height: 90%;
@@ -141,13 +141,13 @@
 
   .input:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
-    background: $purple;
+    background: $primary;
   }
 
   .input:checked ~ .menu-icon .navicon:before,
   .input:checked ~ .menu-icon .navicon:after {
     top: 0;
-    background: $purple;
+    background: $primary;
   }
 
   .input:checked ~ .navigation__links {

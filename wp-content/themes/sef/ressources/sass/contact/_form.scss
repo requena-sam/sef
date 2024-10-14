@@ -23,18 +23,18 @@
         background: none;
         border-radius: 0.5rem;
         border: 1px solid #BABABA;
-        color: black;
+        color: $labeur;
         padding: 0.8rem;
         &:focus{
-          border-color: $purple;
-          color: $purple;
+          border-color: $primary;
+          color: $labeur;
           outline: none;
         }
       }
 
       button{
-        background-color: $purple;
-        color: white;
+        background-color: $primary;
+        color: $labeur;
         padding: 1rem;
         border: none;
         border-radius: 0.5rem;
@@ -42,8 +42,8 @@
         font-family: $poppins-semibold;
         transition: 0.3s ease;
         &:hover{
-          background-color: $light-purple;
-          color: $purple;
+          background-color: $third;
+          color: $primary;
         }
       }
 

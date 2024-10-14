@@ -5,7 +5,7 @@
     gap: 3rem;
     color: white;
     padding: 3rem 2rem;
-    background-color: $purple;
+    background-color: $third;
 
     &__bank {
       display: flex;
@@ -23,6 +23,7 @@
         font-family: $poppins-regular;
         font-size: 1rem;
         margin-bottom: 1.2rem;
+        color: white;
       }
       a{
         text-decoration: none;
@@ -92,7 +93,7 @@
       text-decoration: none;
       font-family: $poppins-regular;
       &:hover{
-        color: $purple;
+        color: $primary;
       }
     }
 

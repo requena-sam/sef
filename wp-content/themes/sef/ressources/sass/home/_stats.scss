@@ -8,8 +8,8 @@
     grid-gap: 3rem;
 
     &__item {
-      background-color: $purple;
-      color: white;
+      background-color: $primary;
+      color: $labeur;
       border-radius: 1.5rem;
 
       &__card {
@@ -33,7 +33,7 @@
 
         hr {
           margin: 1rem 0;
-          border-color: white;
+          border-color: $labeur;
         }
 
         p {
@@ -42,12 +42,12 @@
 
         a {
           &:after {
-            background-color: white;
+            background-color: $labeur;
           }
         }
 
         .btn-arrow {
-          color: white;
+          color: $labeur;
 
           &:before {
             background-image: url("../images/fleche_white.png");
@@ -57,18 +57,18 @@
     }
 
     li:first-child {
-      background-color: $light-purple;
-      color: $purple;
+      background-color: $secondary;
+      color: $labeur;
 
       hr {
-        border-color: $purple;
+        border-color: $labeur;
       }
 
       a {
-        color: $purple;
+        color: $labeur;
 
         &:after {
-          background-color: $purple;
+          background-color: $labeur;
         }
       }
 
@@ -80,19 +80,19 @@
     }
 
     li:last-child {
-      background-color: $yellow;
-      color: black;
+      background-color: $secondary;
+      color: $labeur;
 
       hr {
-        border-color: black;
+        border-color: $labeur;
 
       }
 
       a {
-        color: black;
+        color: $labeur;
 
         &:after {
-          background-color: black;
+          background-color: $labeur;
         }
       }
 

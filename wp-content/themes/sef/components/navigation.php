@@ -1,4 +1,4 @@
-<nav role="navigation" class="navigation" data-animation="showUp">
+<nav role="navigation" class="navigation">
     <h2 role="heading" aria-level="2" class="hidden">Navigation principale</h2>
     <h3 role="heading" aria-level="3"><a href="<?= home_url(); ?>" title="Vers la page d'accueil">SEF</a></h3>
     <input type="checkbox" class="input menu-btn computer_hidden" id="menu-btn">
@@ -21,7 +21,7 @@
                 <a class="navigation__links__more__primary" href="<?= get_field('nav-link-url-1', 'options'); ?>"><?= get_field('nav-link-text-1', 'options'); ?></a>
             </li>
             <li>
-                <a class="navigation__links__more__secondary btn-arrow" href="<?= get_field('nav-link-url-2', 'options'); ?>"><?= get_field('nav-link-text-2', 'options'); ?></a>
+                <a class="navigation__links__more__secondary btn-arrow" href="<?= get_field('nav-link-url-2', 'options'); ?>"><?= get_field('nav-link-text-2', 'options'); ?><span class="icon-arrow-right2"></span></a>
             </li>
         </ul>
     </div>

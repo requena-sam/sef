@@ -13,6 +13,7 @@
       display: flex;
       gap: 0.8rem;
       flex-direction: column;
+      justify-content: center;
       padding: 1.5rem 2rem;
       font-family: $poppins-light;
       line-height: 1.4;
@@ -21,29 +22,29 @@
         font-size: 1.5rem;
       }
     }
-    &__article_purple{
-        background-color: $purple;
-        color: white;
+    &__article_orange{
+        background-color: $primary;
+        color: $labeur;
       a{
-        color: white;
+        color: $labeur;
         &:after{
-          background-color: white;
+          background-color: $labeur;
         }
         &:before{
           background-image: url("../images/fleche_white.png");
         }
       }
     }
-    &__article_orange{
-      background-color: $yellow;
+    &__article_bleu{
+      background-color: $secondary;
     }
     &__article_light-purple{
-      background-color: $light-purple;
-      color: $purple;
+      background-color: $third;
+      color: $primary;
       a{
-        color: $purple;
+        color: $primary;
         &:after{
-          background-color: $purple;
+          background-color: $primary;
         }
         &:before{
           background-image: url("../images/fleche_purple.png");

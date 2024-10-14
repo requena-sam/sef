@@ -34,7 +34,7 @@
                             <a class="primary"
                                href="<?= get_sub_field('link-url-1'); ?>"><?= get_sub_field('link-text-1'); ?></a>
                             <a class="secondary"
-                               href="<?= get_sub_field('link-url-2'); ?>"><?= get_sub_field('link-text-2'); ?></a>
+                               href="<?= get_sub_field('link-url-2'); ?>"><?= get_sub_field('link-text-2'); ?><span class="icon-arrow-right2"></span></a>
                         </div>
                     </div>
                 </li>

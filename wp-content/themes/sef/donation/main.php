@@ -5,7 +5,7 @@
         <p><?= get_field('donation-main-text'); ?></p>
         <div class="cta_group">
             <a class="primary" href="<?= get_field('donation-main-first-link-url'); ?>"><?= get_field('donation-main-first-link-text'); ?></a>
-            <a class="secondary" href="<?= get_field('donation-main-second-link-url'); ?>"><?= get_field('donation-main-second-link-text'); ?></a>
+            <a class="secondary" href="<?= get_field('donation-main-second-link-url'); ?>"><?= get_field('donation-main-second-link-text'); ?><span class="icon-arrow-right2"></span></a>
         </div>
     </div>
     <div class="main__img"  data-animation="showUp">
