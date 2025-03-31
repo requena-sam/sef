@@ -12,7 +12,7 @@
                     <div class="team__container__slider__slide">
                         <div class="team__container__slider__slide__item">
                             <div class="team__container__slider__slide__item__img">
-                                <img src="<?= $photo; ?>" alt="Photo de la personne">
+                                <?= wp_get_attachment_image($photo, 'medium') ?>
                             </div>
                             <p><?= $name; ?></p>
                             <span><?= $status; ?></span>
@@ -31,7 +31,7 @@
                     <div class="team__container__slider__slide">
                         <div class="team__container__slider__slide__item">
                             <div class="team__container__slider__slide__item__img">
-                                <img src="<?= $photo; ?>" alt="Photo de la personne">
+                                <?= wp_get_attachment_image($photo, 'medium') ?>
                             </div>
                             <p><?= $name; ?></p>
                             <span><?= $status; ?></span>

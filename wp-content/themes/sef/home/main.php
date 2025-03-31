@@ -1,7 +1,7 @@
 <section class="main">
     <?php get_template_part('components/alert'); ?>
     <div class="main__content"  data-animation="showUp">
-        <h2 role="heading" aria-level="2" class="main_title"><?= get_field('home-main-title', false, false); ?></h2>
+        <h1 role="heading" aria-level="1" class="main_title"><?= get_field('home-main-title', false, false); ?></h1>
         <p><?= get_field('home-main-text'); ?></p>
         <div class="cta_group">
             <a class="primary"

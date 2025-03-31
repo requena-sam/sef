@@ -12,6 +12,6 @@
             <?php endwhile;endif; ?>
     </div>
     <div class="column__img">
-        <img src="<?= get_field('fiscal-img'); ?>" alt="Image illustrative de la section">
+        <?= wp_get_attachment_image(get_field('fiscal-img'), 'medium') ?>
     </div>
 </section>

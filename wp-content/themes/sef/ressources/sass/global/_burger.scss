@@ -5,15 +5,15 @@
     align-items: center;
     padding: 1.5rem 0 3rem 2rem;
 
-    h3 {
-      font-family: $poppins-semibold;
-      font-size: 2rem;
-      z-index: 4;
+
       a{
         text-decoration: none;
         color: $labeur ;
+        img{
+          max-height: 4rem;
+        }
       }
-    }
+
 
     &__links {
       transform: translateY(100vh);

@@ -3,7 +3,7 @@
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
     <main>
         <section class="confidential">
-            <h2 role="heading" aria-level="2">Politique de <em>confidentialité</em></h2>
+            <h1 role="heading" aria-level="1">Politique de <em>confidentialité</em></h1>
             <p class="update-date">Derniere mise à jour le : 9 Juin 2024 à 12h47</p>
             <?php if (have_rows('confidentiale-list')):
                 while (have_rows('confidentiale-list')): the_row(); ?>

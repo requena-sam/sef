@@ -51,6 +51,7 @@ unset($_SESSION['form_errors']);
                 <p class="form-error"><?php echo $errors['message'] ?? ''; ?></p>
             <?php endif; ?>
         </div>
+        <input type="text" name="botbait" style="display:none;">
         <button type="submit">Envoyer</button>
     </fieldset>
 </form>

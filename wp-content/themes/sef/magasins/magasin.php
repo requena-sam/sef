@@ -28,12 +28,13 @@
                             <li>Vendredi : <?= $vendredi; ?></li>
                             <li>Samedi : <?= $samedi; ?></li>
                         </ul>
-                        <a class="phone-number" title="Appelez notre magasin" href="tel:<?= $phone; ?>"><?= $phone; ?></a>
+                        <a class="phone-number" title="Appelez notre magasin"
+                           href="tel:<?= $phone; ?>"><?= $phone; ?></a>
                     </article>
                 </li>
             <?php endwhile; endif; ?>
     </ul>
-    <div class="magasins__map" data-animation="showUp">
-        <img src="<?= get_field('map'); ?>" alt="Capture d'écran de la position du centre de google map">
+    <div class="magasins__map" data-animation="showUp" style="border-radius: 15px; overflow: hidden;">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17oI47kFDxkmM3YOiJD3jUAN1MMzlzuM&ehbc=2E312F&output=embed" width="100%" height="480" style="margin-top: -60px;"></iframe>
     </div>
 </section>

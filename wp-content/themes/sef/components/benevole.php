@@ -20,6 +20,6 @@
         </div>
     </div>
     <div class="column__img benevole__img mobile_hidden">
-        <img src="<?= get_field('benevole-img', 'options'); ?>" alt="">
+        <?= wp_get_attachment_image(get_field('benevole-img', 'options'), 'medium') ?>
     </div>
 </section>

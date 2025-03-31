@@ -4,11 +4,11 @@
     <main>
         <section class="single" data-animation="showUp">
             <div class="single__img">
-                <img src="<?= get_field('article-img'); ?>" alt="">
+                <?= wp_get_attachment_image(get_field('article-img'), 'large') ?>
             </div>
             <div class="single__header">
                 <div class="single__header__first">
-                    <h2><?= get_field('article-title'); ?></h2>
+                    <h1><?= get_field('article-title'); ?></h1>
                     <span class="single-date"><?= get_field('article-date'); ?></span>
                 </div>
                 <span><?= get_field('article-type'); ?></span>
@@ -42,8 +42,7 @@
                     <a href="<?= get_permalink(); ?>">
                         <article class="article">
                             <div class="article__img">
-                                <img src="<?= $image; ?>" alt="Image de l'article">
-                            </div>
+                                <?= wp_get_attachment_image($image, 'large') ?>                            </div>
                             <h3><?= $title ?></h3>
                         </article>
                     </a>

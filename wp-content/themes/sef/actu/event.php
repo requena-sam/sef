@@ -20,7 +20,7 @@
             ?>
             <article class="event__container__article">
                 <div class="event__container__article__img">
-                <img src="<?= $image; ?>" alt="Image de l'event">
+                    <?= wp_get_attachment_image($image, 'medium') ?>
                 </div>
                 <div class="event__container__article__text">
                     <h3><?= $title ?></h3>

@@ -39,6 +39,9 @@ class ContactForm
             wp_redirect($_SERVER['HTTP_REFERER']);
             exit;
         }
+        if (!empty($_POST['botbait'])) {
+            die("Spam détecté !");
+        }
 
         $this->send_email($formData);
     }

@@ -1,7 +1,16 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  max-width: 3000px;
+  margin: 0 auto;
+}
 
+@media (min-width: 1600px) {
+  html {
+    font-size: 20px;
+  }
+}
 @media (max-width: 900px) {
   html {
     font-size: 14px;
@@ -64,7 +73,7 @@ img {
     flex-direction: column;
     gap: 1.5rem;
 
-    h2 {
+    h2, h1 {
       color: $labeur;
       font-family: $poppins-semibold;
       font-size: 2.5rem;
@@ -137,7 +146,7 @@ img {
 }
 
 section {
-  h2 {
+  h2, h1 {
     font-family: $poppins-semibold;
     font-size: 2.2rem;
 
@@ -219,7 +228,7 @@ section {
       order: initial;
       justify-content: center;
 
-      h2 {
+      h2,h1 {
         font-size: 3.5rem;
       }
     }
@@ -285,6 +294,8 @@ section {
   content: "\ea3c";
   padding-left: 0.5rem;
 }
-
+.custom-container{
+  padding: 0 clamp(6rem, -0.231rem + 7.385vw, 9rem);
+}
 
 

@@ -7,6 +7,6 @@
         </div>
     </div>
     <div class="column__img">
-        <img src="<?= get_field('monetaire-img'); ?>" alt="Photo d'illustration">
+        <?= wp_get_attachment_image(get_field('monetaire-img'), 'medium') ?>
     </div>
 </section>

@@ -17,6 +17,6 @@
         </div>
     </div>
     <div class="column__img">
-        <img src="<?= get_field('leg-img'); ?>" alt="Image illustrative de la section">
+        <?= wp_get_attachment_image(get_field('leg-img'), 'medium') ?>
     </div>
 </section>

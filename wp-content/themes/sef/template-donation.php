@@ -5,9 +5,9 @@
         <?php get_template_part('donation/main'); ?>
         <?php get_template_part('components/benevole'); ?>
         <?php get_template_part('donation/different-don'); ?>
-        <?php get_template_part('donation/monetaire'); ?>
-        <?php get_template_part('donation/fiscal'); ?>
         <?php get_template_part('donation/materiel'); ?>
+        <?php get_template_part('donation/fiscal'); ?>
+        <?php get_template_part('donation/monetaire'); ?>
         <?php get_template_part('donation/leg'); ?>
     </main>
 <?php endwhile; endif; ?>

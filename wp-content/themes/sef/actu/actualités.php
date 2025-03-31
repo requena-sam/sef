@@ -21,7 +21,7 @@
             ?>
             <article class="articles__container__item">
                 <a href="<?= get_permalink(); ?>">
-                    <img src="<?= $image; ?>" alt="Image de l'article">
+                    <?= wp_get_attachment_image($image, 'small') ?>
                     <div class="articles__container__item__content">
                         <div class="articles__container__item__content__upper">
                             <span><?= $category; ?></span>

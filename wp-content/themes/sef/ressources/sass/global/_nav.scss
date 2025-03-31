@@ -1,21 +1,23 @@
 @media (min-width: 800px) {
-
   .navigation {
     padding: 2rem 3rem;
     display: grid;
     grid-template-columns: 0.5fr 9.5fr;
     grid-gap: 2rem;
 
-    h3 {
+
+
       a{
         text-decoration: none;
         color: $labeur;
+        img{
+          align-self: center;
+          font-family: $poppins-semibold;
+          font-size: 2rem;
+          min-width: 5rem;
+        }
       }
-      align-self: center;
-      font-family: $poppins-semibold;
-      font-size: 2rem;
 
-    }
 
     &__links {
       align-items: center;

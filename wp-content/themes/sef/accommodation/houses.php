@@ -13,7 +13,7 @@
                 ?>
                 <li class="houses__list__item column" data-animation="showUp">
                     <div class="houses__list__item__img column__img">
-                        <img src="<?= $img; ?>" alt="Photo de la maison">
+                        <?= wp_get_attachment_image($img, 'medium') ?>
                     </div>
                     <div class="houses__list__item__content column__content">
                         <div class="houses_upper">

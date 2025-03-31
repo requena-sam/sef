@@ -1,6 +1,6 @@
 <footer class="footer">
     <section class="footer__upper">
-    <h2 role="heading" aria-level="2" class="hidden">Footer</h2>
+    <h2 role="heading" aria-level="2" class="hidden">Vous redirigez</h2>
         <article class="footer__upper__bank">
             <h3 role="heading" aria-level="3">Numéro de compte bancaire</h3>
             <p><?= get_field('footer-bank-number', 'options'); ?></p>
@@ -50,8 +50,8 @@
         </div>
     </section>
     <section class="footer__bottom">
-        <h2 role="heading" class="hidden" aria-level="2">Footer end</h2>
-        <p>&copy;2024 Service d'entraide familiale. Tous droits réservés.</p>
+        <h2 role="heading" class="hidden" aria-level="2">Informations et confidentialités</h2>
+        <p>&copy;2024 Service d'Entraide Familiale. Tous droits réservés.</p>
         <div class="footer__bottom__left">
             <p>
                 Crée par <a href="https://samrequena.be" title="Lien vers le portfolio de Sam Requena">Sam Requena</a>

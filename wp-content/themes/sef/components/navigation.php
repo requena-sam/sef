@@ -1,6 +1,5 @@
 <nav role="navigation" class="navigation">
-    <h2 role="heading" aria-level="2" class="hidden">Navigation principale</h2>
-    <h3 role="heading" aria-level="3"><a href="<?= home_url(); ?>" title="Vers la page d'accueil">SEF</a></h3>
+    <a href="<?= home_url(); ?>" title="Vers la page d'accueil"><?= wp_get_attachment_image(get_field('logo', 'option'), 'small') ?></a>
     <input type="checkbox" class="input menu-btn computer_hidden" id="menu-btn">
     <label class="menu-icon computer_hidden" for="menu-btn">
         <span class="navicon" aria-label="Hamburger menu 'icon'"></span>

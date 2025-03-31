@@ -8,6 +8,6 @@
         </div>
     </div>
     <div class="mission__img column__img">
-        <img src="<?= get_field('mission-img'); ?>" alt="Image d'introduction">
+        <?= wp_get_attachment_image(get_field('mission-img'), 'medium') ?>
     </div>
 </section>

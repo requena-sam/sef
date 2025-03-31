@@ -2,7 +2,7 @@
     <?php get_template_part('components/alert'); ?>
 
     <div class="main__content"  data-animation="showUp">
-        <h2 role="heading" aria-level="2" class="main_title"><?= get_field('actu-main-title', false, false); ?></h2>
+        <h1 role="heading" aria-level="1" class="main_title"><?= get_field('actu-main-title', false, false); ?></h1>
         <p><?= get_field('actu-main-text'); ?></p>
         <div class="cta_group">
             <a class="primary" href="<?= get_field('actu-main-first-link-url'); ?>"><?= get_field('actu-main-first-link-text'); ?></a>
@@ -10,6 +10,6 @@
         </div>
     </div>
     <div class="main__img"  data-animation="showUp">
-        <img src="<?= get_field('actu-main-illu'); ?>" alt="Image d'introduction">
+        <?= wp_get_attachment_image(get_field('actu-main-illu'), 'medium') ?>
     </div>
 </section>

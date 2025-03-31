@@ -1,7 +1,7 @@
 <section class="main">
     <?php get_template_part('components/alert'); ?>
     <div class="main__content" data-animation="showUp">
-        <h2 role="heading" aria-level="2" class="main_title"><?= get_field('projet-main-title', false, false); ?></h2>
+        <h1 role="heading" aria-level="1" class="main_title"><?= get_field('projet-main-title', false, false); ?></h1>
         <p><?= get_field('projet-main-text'); ?></p>
         <div class="cta_group">
             <a class="primary"
@@ -11,6 +11,6 @@
         </div>
     </div>
     <div class="main__img" data-animation="showUp">
-        <img src="<?= get_field('projet-main-illu'); ?>" alt="Image d'introduction">
+        <?= wp_get_attachment_image(get_field('projet-main-illu'), 'medium') ?>
     </div>
 </section>
