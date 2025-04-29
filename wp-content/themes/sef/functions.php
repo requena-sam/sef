@@ -182,3 +182,4 @@ function dw_is_active(string $path): string
 {
     return wp_get_canonical_url() === $path ? 'active' : '';
 }
+add_theme_support('title-tag');

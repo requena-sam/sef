@@ -59,6 +59,9 @@
             <a href="<?= get_field('politique-link', 'options'); ?>">Politique de confidentialités</a>
         </div>
     </section>
+    <section class="footer__bottom thanks">
+        <p>Avec le soutien de la <a class="underlined-link" href="https://www.wallonie.be/fr ">Wallonie</a></p>
+    </section>
 </footer>
 <script type="module" src="<?= dw_asset('js/site.js') ?>" defer></script>
 </body>
